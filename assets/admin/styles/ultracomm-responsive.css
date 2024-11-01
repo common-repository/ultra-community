@@ -1,0 +1,168 @@
+/* uc-hidden-xs < 568px */
+@media screen and (max-width:35.438em)
+{
+    .uc-user-post-content-holder, .uc-group-content-holder
+    {
+        padding:10px 0 0;
+    }
+
+}
+
+/* < 768*/
+@media screen and (max-width:47.938em)
+{
+    .uc-user-post-media-holder
+    {
+        height: 230px;
+    }
+
+    .uc-group-profile-member-avatar-holder
+    {
+        height:150px;
+        border: 0;
+    }
+
+    .uc-group-profile-member-avatar-holder a
+    {
+        max-width: 150px;
+    }
+
+    .uc-group-profile-member-header
+    {
+        text-align: center;
+    }
+    .uc-group-profile-member-footer
+    {
+        text-align: center;
+    }
+    .uc-group-profile-member-footer div.uc-g > div
+    {
+        margin-bottom: 10px;
+    }
+    .uc-group-profile-member-footer div.uc-g div:last-of-type
+    {
+        margin-bottom: 0;
+    }
+}
+
+/* < 1024*/
+@media screen and (max-width:63.938em)
+{
+    .uc-profile-content-holder
+    {
+        padding: 0;
+    }
+
+    .uc-usermeta-holder
+    {
+        max-width: 100%;
+    }
+    .uc-profile-sidebar-avatar-wrapper
+    {
+        max-width: 25%;
+    }
+
+/*Navigation*/
+
+
+    /*.uc-profile-navigation-holder*/
+    /*{*/
+        /*margin-top: 2.5em;*/
+    /*}*/
+
+    .uc-mobile-navigation-holder
+    {
+        display: block;
+    }
+
+    ul.uc-menu-list.uc-profile-main-navigation
+    {
+        display: none;
+        margin-top: 60px;
+    }
+
+    ul.uc-profile-main-navigation .uc-menu-item
+    {
+        float: left;
+        clear: left;
+        width: 100%;
+        text-align: left;
+        border-top: 1px solid #f3f3f3;
+    }
+
+    ul.uc-profile-main-navigation a.uc-menu-link
+    {
+        display:block;
+    }
+
+    ul.uc-profile-main-navigation a.uc-menu-link i, ul.uc-profile-main-navigation a.uc-menu-link span
+    {
+        float: left;
+        margin-right: 15px !important;
+    }
+
+    div.uc-user-actions-toggle
+    {
+        top:0;
+        margin-top: 30px;
+    }
+
+
+/* Groups */
+
+    .uc-group-card-holder
+    {
+        max-width: 100%;
+    }
+
+    div.uc-group-cover-holder
+    {
+        height: 150px;
+    }
+
+    .uc-group-card-avatar-wrapper
+    {
+        max-width: 25%;
+    }
+
+
+
+
+
+}
+
+/* < 1280*/
+@media screen and (max-width:79.938em)
+{
+
+}
+
+
+/* uc-u-sm  between 568px  and 767*/
+@media screen and (min-width:35.5em) and (max-width:47.938em)
+{
+
+}
+
+
+/* uc-u-md between 768px and 1023*/
+@media screen and (min-width:48em) and (max-width:63.938em)
+{
+
+}
+
+/* uc-u-lg ≥ 1024px */
+@media screen and (min-width:64em)
+{
+}
+
+/* uc-u-lg ≥ 1024px and 1279*/
+@media screen and (min-width:64em) and (max-width:79.938em) {
+}
+
+
+
+/* uc-u-xl ≥ 1280px */
+@media screen and (min-width:80em) {
+
+}

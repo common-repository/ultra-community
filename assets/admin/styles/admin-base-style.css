@@ -1,0 +1,663 @@
+.uc-g [class *= "uc-u"]
+{
+    font-size: 14px !important;
+}
+
+
+
+.uc-underlined-text
+{
+    text-decoration: underline;
+}
+
+div.uc-settings-section-header h3
+{
+    margin:0 !important;
+    padding:0 !important;
+    float:left;
+    display: inline-block;
+    font-weight: 400;
+}
+div.uc-settings-section-header .uc-settings-module-actions
+{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div.uc-settings-section-header .uc-settings-module-actions li
+{
+    float:left;
+    margin-left: 10px;
+    height: 37px;
+    line-height: 37px;
+}
+div.uc-settings-section-header .uc-settings-module-actions button
+{
+    padding: .3em 1em;
+}
+
+
+form.mch-module-settings-form .uc-form-title,
+form.mch-module-settings-form .uc-members-directory-title,
+form.mch-module-settings-form .uc-users-role-title
+{
+    width: 390px;
+}
+
+form.mch-module-settings-form .uc-form-title::-webkit-input-placeholder {
+    color: #bbb;
+    opacity:1;font-style: italic;
+}
+
+form.mch-module-settings-form .uc-form-title:-moz-placeholder {
+    color: #bbb;
+    opacity:1;font-style: italic;
+}
+
+form.mch-module-settings-form .uc-form-title::-moz-placeholder {
+    color: #bbb;
+    opacity:1;font-style: italic;
+}
+
+form.mch-module-settings-form .uc-form-title:-ms-input-placeholder {
+    color: #bbb;
+    opacity:1;font-style: italic;
+}
+
+form.mch-module-settings-form .uc-help-tooltip
+{
+    margin-left: 5px;
+    color: #1e88e5;
+    font-size: 1.2em;
+}
+form.mch-module-settings-form .uc-tooltip:hover
+{
+    cursor: pointer;
+}
+
+/* ---------------- FORM FIELDS LIST */
+
+.uc-form-fields-list-holder
+{
+    margin-top: 20px;
+    background-color: #b6b6b6;
+
+}
+
+.uc-form-fields-list-holder span
+{
+    vertical-align: middle;
+}
+
+
+ul.uc-form-fields-list, div.uc-form-add-new-field
+{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 30px;
+    margin: 10px;
+    list-style-type: decimal;
+    font-size: 130%;
+}
+
+div.uc-form-add-new-field
+{
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 100%;
+}
+
+ul.uc-form-fields-list > li
+{
+    margin-bottom: 15px;
+    line-height: 30px;
+    border: 1px dotted #b6b6b6;
+    padding: 5px 15px;
+    background: #fefefe;
+}
+
+ul.uc-form-fields-list > li:last-child
+{
+    margin-bottom:0;
+}
+
+ul.uc-form-fields-list > li:hover
+{
+    cursor: pointer;
+    background: #f1f1f1;
+}
+
+ul.uc-form-fields-list ul.form-field-info
+{
+    float: left;
+}
+
+ul.uc-form-fields-list ul.form-field-info li
+{
+    float: left;
+    margin: 0;
+    color: #bababa;
+    margin-right: 10px;
+}
+
+ul.uc-form-fields-list ul.form-field-info li:first-child span
+{
+    color: #888;
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+}
+
+ul.uc-form-fields-list ul.form-field-actions
+{
+    float: right;
+}
+
+ul.uc-form-fields-list ul.form-field-actions li
+{
+    float: left;
+}
+ul.uc-form-fields-list ul.form-field-actions li:first-child
+{
+    border-right: 1px solid #fff;
+}
+
+ul.uc-form-fields-list ul.form-field-actions button
+{
+    padding: 0 10px;
+    margin: -1px 0 0;
+    border-radius: 0;
+
+}
+
+ul.uc-form-fields-list:empty
+{
+    display: none;
+}
+
+
+/* ---------------- END FORM FIELDS LIST */
+
+
+
+
+/* Modal Form Fields Type */
+#uc-all-form-fields-type-list
+{
+    margin:10px 0;
+}
+#uc-all-form-fields-type-list h4
+{
+    font-size: 110%;
+    border-bottom: 1px solid #ccc;
+    margin-top:30px;
+}
+#uc-all-form-fields-type-list h4:first-child
+{
+    margin-top:0;
+}
+
+#uc-all-form-fields-type-list button
+{
+    display:block;
+    margin:10px 0;
+    width: 98%;
+    border-radius: 0;
+    text-align: left;
+    font-size: 96%;
+    margin-left: 1%;
+}
+
+#uc-all-form-fields-type-list .uc-button-hover,
+#uc-all-form-fields-type-list .uc-button:hover,
+#uc-all-form-fields-type-list .uc-button:focus {
+    background-image:none;
+    background-color: #376799;
+}
+
+#uc-all-form-fields-type-list button i.fa
+{
+    margin-right: 8px;
+}
+
+#uc-all-form-fields-type-list .uc-button-primary
+{
+    background-color: #008FE4;
+}
+/* END Modal Form Fields Type */
+
+
+/*Modal user Profile header fields */
+
+#uc-all-form-header-profile-fields-list
+{
+    margin:10px 0;
+}
+#uc-all-form-header-profile-fields-list h4
+{
+    font-size: 110%;
+    border-bottom: 1px solid #ccc;
+    margin-top:30px;
+}
+#uc-all-form-header-profile-fields-list h4:first-child
+{
+    margin-top:0;
+}
+
+#uc-all-form-header-profile-fields-list button
+{
+    display:block;
+    margin:10px 0;
+    width: 98%;
+    border-radius: 0;
+    text-align: left;
+    font-size: 96%;
+    margin-left: 1%;
+    padding-left: 5px;
+}
+
+#uc-all-form-header-profile-fields-list .uc-button-hover,
+#uc-all-form-header-profile-fields-list .uc-button:hover,
+#uc-all-form-header-profile-fields-list .uc-button:focus {
+    background-image:none;
+    background-color: #376799;
+}
+
+#uc-all-form-header-profile-fields-list button i.fa
+{
+    margin-right: 8px;
+}
+
+#uc-all-form-header-profile-fields-list .uc-button-primary
+{
+    background-color: #008FE4;
+}
+
+/*END Modal user Profile header fields */
+
+
+/* Form Field Settings */
+form.uc-form-field-settings .uc-control-group
+{
+    padding: 0 5px;
+}
+form.uc-form-field-settings label i.fa
+{
+    margin-left: 5px;
+    color:#1e88e5;
+}
+
+
+
+form.mch-module-settings-form textarea
+{
+    width:60%;
+    height: 180px;
+}
+
+
+form.mch-module-settings-form table.form-table th
+{
+    /*font-size: 15px;*/
+    font-weight: 500;
+    width: 260px;
+}
+
+
+form.mch-module-settings-form[class*='uc-registerform-cpt-'] span.select2-container
+{
+    width: 310px !important;
+}
+
+form.uc-userprofileappearance-settings table.form-table th
+{
+    width:325px;
+}
+
+
+.mch-left-side-holder ul.filter-links
+{
+    display: block !important;
+    text-align: center !important;
+}
+
+.mch-left-side-holder ul.filter-links a
+{
+    font-size: 15px;
+}
+
+.mch-left-side-holder ul.filter-links .current
+{
+    color:#00a0d2;
+    border-color: #00a0d2;
+}
+
+.mch-left-side-holder ul.filter-links a:active, .mch-left-side-holder ul.filter-links a:focus
+{
+    outline-width: 0;
+    outline: 0;
+    transition-duration:0s;
+    border: 0;
+    box-shadow:none;
+}
+
+
+#ultracomm-help-metabox  .inside
+{
+    margin-top:15px;
+    /*background-color: #f9f9f9 !important;*/
+}
+
+#ultracomm-help-metabox .inside div
+{
+    padding:10px;
+    text-align: center;
+}
+
+#ultracomm-help-metabox .contact-help
+{
+    display:block;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top:10px;
+}
+
+form.mch-module-settings-form .uc-section-divider
+{
+    font-size: 1em;
+}
+
+form.uc-frontpagesettings .select2-container
+{
+    width: 350px !important;
+}
+
+form[class *= " uc-membersdirectory-cpt-"] .select2-container
+{
+    width: 390px !important;
+}
+
+form.uc-usersettings input[type="text"]
+{
+    width: 350px;
+}
+
+form.uc-emailssettings input[type="text"]
+{
+    width: 350px;
+}
+
+form.uc-licenses-settings input[type="text"]
+{
+    width: 350px;
+}
+
+form[class *= "uc-userrole-cpt-"] input[type="text"]
+{
+    width: 350px;
+}
+
+form.uc-extendedactivity-settings input[type="text"]
+{
+    width: 600px;
+}
+
+
+.asIconPicker_with_search .asIconPicker-selector-search
+{
+    height: 56px;
+}
+
+
+form.uc-submission-level-form input
+{
+    height: 33px;
+}
+
+/*form.uc-submission-level-form textarea*/
+/*{*/
+    /*width: 100%;*/
+/*}*/
+
+
+div.uc-popup-content  .uc-subscription-duration-holder  .select2-container
+{
+    width:177px !important;
+    float: right;
+}
+
+div.uc-popup-content  .uc-subscription-duration-holder  input
+{
+    width: 177px; float: left;
+}
+
+
+
+form.mch-module-settings-form.uc-subscriptionlevels-settings p.submit
+{
+    display: none;
+}
+
+
+form.uc-form-restriction-rule
+{
+    padding-top: 5px;
+}
+
+form.uc-form-restriction-rule input[type="text"]
+{
+    height: 33px;
+}
+form.uc-form-restriction-rule .uc-rule-type-holder label,
+form.uc-form-restriction-rule .uc-content-visibility-holder label
+{
+    text-align: center;
+}
+
+form.uc-form-restriction-rule table .select2-container
+{
+    margin-bottom: -15px;
+}
+
+
+
+/*-------- Date Picker ------ */
+.ui-datepicker.uc-datepicker-wrapper
+{
+    padding: 0;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.075);
+    min-width: 17em;
+    width: auto;
+    z-index: 9999999 !important;
+}
+
+body.wp-admin:not(.rtl) .ui-datepicker.uc-datepicker-wrapper {
+    margin-left: -1px;
+}
+
+body.wp-admin.rtl .ui-datepicker.uc-datepicker-wrapper {
+    margin-right: -1px;
+}
+
+.ui-datepicker.uc-datepicker-wrapper * {
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.ui-datepicker.uc-datepicker-wrapper table {
+    font-size: 13px;
+    margin: 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-widget-header,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-header {
+    background-image: none;
+    border: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-header .ui-state-hover {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-title {
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next {
+    position: relative;
+    top: 0;
+    height: 34px;
+    width: 34px;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-state-hover.ui-datepicker-prev,
+.ui-datepicker.uc-datepicker-wrapper .ui-state-hover.ui-datepicker-next {
+    border: none;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev-hover {
+    left: 0;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next-hover {
+    right: 0;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next span,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev span {
+    display: none;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev {
+    float: left;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev:before,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next:before {
+    font: normal 20px/34px 'dashicons';
+    padding-left: 7px;
+    color: #fff;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 34px;
+    height: 34px;
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev:before {
+    content: '\f341';
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next:before {
+    content: '\f345';
+}
+
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-prev-hover:before,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-next-hover:before {
+    opacity: 0.7;
+}
+
+.ui-datepicker.uc-datepicker-wrapper select.ui-datepicker-month,
+.ui-datepicker.uc-datepicker-wrapper select.ui-datepicker-year {
+    width: 33%;
+}
+
+.ui-datepicker.uc-datepicker-wrapper thead {
+    color: #fff;
+    font-weight: 600;
+}
+
+.ui-datepicker.uc-datepicker-wrapper th {
+    padding: 10px;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td {
+    padding: 0;
+    border: 1px solid #f4f4f4;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td.ui-datepicker-other-month {
+    border: transparent;
+}
+
+.ui-datepicker.uc-datepicker-wrapper tr:first-of-type td {
+    border-top: 1px solid #f0f0f0;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td.ui-datepicker-week-end {
+    background-color: #f4f4f4;
+    border: 1px solid #f0f0f0;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td.ui-datepicker-today {
+    background-color: #f0f0c0;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td.ui-datepicker-current-day {
+    background: #bbdd88;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td .ui-state-default {
+    background: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    display: block;
+    padding: 5px 10px;
+    font-weight: normal;
+    color: #444;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td.ui-state-disabled .ui-state-default {
+    opacity: 0.5;
+}
+
+/* Default Color Scheme */
+.ui-datepicker.uc-datepicker-wrapper .ui-widget-header,
+.ui-datepicker.uc-datepicker-wrapper .ui-datepicker-header {
+    background: #00a0d2;
+}
+
+.ui-datepicker.uc-datepicker-wrapper thead {
+    background: #32373c;
+}
+
+.ui-datepicker.uc-datepicker-wrapper td .ui-state-hover {
+    background: #0073aa;
+    color: #fff;
+}
+
+
+
+

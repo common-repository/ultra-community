@@ -1,0 +1,627 @@
+.uc-user-profile-container
+{
+    background-color: #fff;
+    margin:auto;
+}
+
+.uc-profile-content-holder
+{
+    padding:0 0 0 25px;
+}
+
+.uc-profile-sidebar-avatar-holder
+{
+    margin-top: -50% !important;
+    position: relative !important;
+}
+
+.uc-profile-sidebar-avatar-holder img
+{
+    border: 2px solid #ccc;
+    padding: 2px;
+    background: #fff;
+    margin:0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+
+
+
+/*UserMetaInfo*/
+.uc-usermeta-holder
+{
+    background: #FFF;
+    z-index: 2;
+    margin: 0 auto 0;
+    border-radius: 1px;
+    opacity: 1;
+    max-width: 350px;
+    padding-bottom: 1.2em;
+
+    -moz-box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.07);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.07);
+
+}
+
+.uc-usermeta-main-info
+{
+    margin: 1.2em 0 0;
+}
+
+.uc-usermeta-main-info > h1, .uc-usermeta-main-info > div
+{
+    margin-bottom: 10px;
+}
+.uc-usermeta-main-info > div:last-child
+{
+    margin-bottom: 0;
+}
+
+.uc-usermeta-main-info h1
+{
+    text-align: center;
+    line-height: 1em;
+    color: #43454b;
+    font-weight: 500;
+}
+.uc-usermeta-main-info h1 a
+{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.uc-usermeta-main-info h1 a:hover
+{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+
+div.uc-usermeta-holder  hr.uc-divider-gradient
+{
+    margin: 1.1em 0;
+}
+
+.uc-social-links-holder li
+{
+    margin-right: 15px !important
+}
+.uc-social-links-holder li a
+{
+    line-height: 1em;
+}
+
+div.uc-usermeta-stats-holder div
+{
+    text-align: center;
+}
+
+div.uc-usermeta-stats-holder .uc-usermeta-counter-value
+{
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #798191;
+}
+
+div.uc-usermeta-stats-holder .uc-usermeta-counter-name
+{
+    font-weight: 300;
+    font-size: 1em;
+    color: #999;
+}
+
+div.uc-usermeta-holder .uc-social-icons.uc-social-icon-circle .fa
+{
+    border-radius: 15%;
+}
+div.uc-usermeta-holder .uc-social-links-holder
+{
+    text-align: center;
+}
+
+div.uc-usermeta-holder .uc-social-icons
+{
+    display: inline-block;
+
+}
+
+
+
+/*User Recent Posts*/
+
+.uc-user-recent-posts ul li
+{
+    padding: 15px 10px;
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+    position: relative;
+}
+
+.uc-sidebar-recent-posts-image-holder, .uc-sidebar-recent-comments-image-holder
+{
+    display:block;
+    word-wrap:break-word;
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+
+}
+a.uc-sidebar-recent-posts-image-holder:hover
+{
+    opacity: .8;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
+.uc-sidebar-recent-posts-post-meta
+{
+    margin-bottom: 5px;
+}
+
+.uc-sidebar-recent-posts-post-meta p:last-child
+{
+    text-align: right;
+}
+
+.uc-sidebar-recent-posts-post-meta p span
+{
+    font-size: 13px;
+}
+
+.uc-sidebar-recent-posts-post-meta i.fa
+{
+    margin-right: 5px;
+
+}
+
+
+.uc-user-recent-posts .uc-user-post-no-thumb div
+{
+    height: 100%;
+}
+
+.uc-user-recent-posts .uc-user-post-no-thumb i.fa
+{
+    padding:5px 7px;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+
+.uc-user-post-featured .uc-user-post-media-holder
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.uc-user-post-recent-featured .uc-sidebar-recent-posts-post-meta
+{
+    line-height: 30px;
+    margin: -30px 0 0 0;
+    background-color: rgba(0,0,0,0.63) !important;
+    z-index: 1;
+}
+
+.uc-user-post-recent-featured .uc-sidebar-recent-posts-post-meta p span
+{
+    color:#fff;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.uc-user-post-recent-featured .uc-user-post-media-holder
+{
+    border: 0;
+    padding: 0;
+}
+
+.uc-user-post-recent-featured .uc-user-post-title h3
+{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    padding: 0 2px;
+}
+
+
+.uc-user-post-recent-featured .uc-section-divider
+{
+    width: 20%;
+    margin: 0 auto;
+    border-top: 1px solid #ececec;
+}
+.uc-user-post-recent-featured .uc-user-post-excerpt
+{
+    margin: 10px 0 0;
+}
+.uc-user-post-recent-featured .uc-user-post-excerpt p
+{
+    line-height: 1.2em;
+    opacity: .9;
+}
+
+.uc-user-recent-posts-header h3.uc-box-title, .uc-user-recent-comments-header h3.uc-box-title
+{
+    border: 0;
+}
+
+/*-------------- End User Recent Posts  ----------------------------------*/
+
+/* User recent comments */
+.uc-user-recent-comments ul li
+{
+    padding: 15px 10px;
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+    position: relative;
+}
+
+.uc-user-recent-comments .uc-user-comment-excerpt-holder p
+{
+    border: 0;
+    line-height: 1.2em;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.uc-user-recent-comments .uc-user-comment-excerpt-holder a
+{
+
+    margin-left: 6px;
+}
+
+.uc-user-recent-comments .uc-section-divider
+{
+    width: 20%;
+    margin: 10px auto;
+    border-top: 1px solid #ececec;
+
+}
+
+/*User Posts*/
+.uc-user-profile-post-holder, .uc-user-profile-comment-holder
+{
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.08);
+    margin-bottom:25px;
+    padding: 15px 10px;
+}
+
+.uc-user-profile-posts-holder > div:last-of-type, .uc-user-profile-comments-holder > div:last-of-type
+{
+    margin-bottom:0 !important;
+}
+
+.uc-user-post-media-holder
+{
+    padding: 5px;
+    border: 1px solid #e4e4e4;
+}
+
+.uc-user-post-media-holder.uc-flex-box-with-bg a
+{
+    opacity:1;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
+.uc-user-post-no-thumb
+{
+    background: linear-gradient( 180deg , #1e88e5, #e4e4e4 );
+}
+
+.uc-user-post-no-thumb i
+{
+    background-color: rgba(255,255,255,0.09);
+    color: #fff;
+    font-size: 1.9em;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    padding: 15px 18px;
+    display:block;
+    margin:0 auto;
+}
+
+.uc-user-post-no-thumb div
+{
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.uc-user-post-media-holder.uc-flex-box-with-bg a:hover
+{
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+
+.uc-user-post-content-holder
+{
+    padding:0 25px;
+}
+.uc-user-post-content-holder > div
+{
+    margin-bottom:15px;
+}
+.uc-user-post-content-holder > div:last-child
+{
+    margin-bottom:3px;
+}
+
+
+.uc-user-post-title h2 a, .uc-user-post-title h2 a:hover
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.uc-user-post-title h2 a:hover
+{
+    opacity: 1;
+}
+
+div.uc-user-post-meta li, div.uc-user-post-meta li a
+{
+    display:inline-block;
+    text-transform: capitalize;
+    margin-right: 12px;
+    font-size: 13px;
+
+}
+
+div.uc-user-post-meta li a
+{
+    margin-right:3px;
+}
+
+
+div.uc-user-post-meta li i.fa
+{
+    margin-right:5px;
+
+}
+
+div.uc-user-post-excerpt p
+{
+    line-height: 1.6em;
+}
+
+/*End - User Posts*/
+
+
+/*User Comments*/
+
+.uc-user-profile-comment-head
+{
+    position: relative;
+}
+
+.uc-user-profile-comment-head > div:first-child
+{
+    display: inline-block;
+    width: 100%;
+    position: relative
+}
+
+.uc-user-profile-comment-head .uc-flex-box-with-bg
+{
+    width:50px;
+    height:50px;
+    float:left;
+    padding: 2px;
+    border: 1px solid #e4e4e4;
+}
+
+.uc-user-profile-comment-head .uc-flex-box-with-bg a:hover
+{
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+
+
+.uc-user-profile-comment-head-meta
+{
+    position:absolute;
+    left:60px;
+}
+.uc-user-profile-comment-head-meta h3
+{
+    margin-bottom:8px;
+}
+.uc-user-profile-comment-head-meta h3 a, .uc-user-profile-comment-head-meta h3 a:hover
+{
+    font-weight: 500;
+    font-size: .92em;
+}
+
+.uc-user-profile-comment-head-meta p
+{
+    font-size: 13px;
+
+}
+.uc-user-profile-comment-head-meta i.fa
+{
+    margin-right:5px;
+}
+.uc-user-profile-comment-link
+{
+    position:absolute;
+    right:0;
+}
+
+.uc-user-comment-excerpt-holder p
+{
+    line-height: 1.6em;
+    border-top:1px solid #e4e4e4;
+    padding-top:15px;
+    margin-top:10px;
+}
+
+/* End User Comments */
+
+/* User About */
+.uc-user-profile-about-field-holder
+{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.uc-user-profile-about-field-label
+{
+    border-bottom: 1px solid #e4e4e4 !important;
+    margin: 0 0 5px;
+}
+
+.uc-user-profile-about-field-label span
+{
+    font-weight: 500;
+    padding: 0 0 6px;
+    font-size: 1em;
+    line-height: 1em;
+    margin-right: 15px;
+    margin-bottom: -1px;
+}
+
+.uc-user-profile-about-field-label span.uc-user-profile-about-field-value
+{
+    font-weight: normal;
+    position: absolute;
+    vertical-align: middle;
+    display: inline-block;
+    left:100px;
+}
+
+/* END User About */
+
+
+
+
+/*User Follow*/
+.uc-user-follow
+{}
+
+.uc-user-follow-info
+{
+    text-align: center;
+}
+.uc-user-follow-info p:first-child
+{
+
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.uc-user-follow-info p:last-child
+{
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #1e88e5;
+}
+
+#uc-user-button-follow
+{
+    display: block;
+    font-size: 1.5em;
+    padding-top: .2em ;
+    padding-bottom: .2em;
+    margin: 0 auto;
+    letter-spacing: .06em;
+}
+
+/*#uc-user-button-follow:hover*/
+/*{*/
+/*background-color: #ff812d;*/
+/*}*/
+/*END User Follow*/
+
+
+/*User Activity*/
+.uc-user-activity
+{}
+
+.uc-user-activity
+{
+
+}
+
+.uc-user-activity div.uc-u-1-3
+{
+    /*background-color: #fff;*/
+}
+.uc-user-activity div.uc-u-1-3 div
+{
+    /*background-color: #fafafa;*/
+    text-align: center;
+    margin: 5px;
+    /*background-color: #fff;*/
+    padding: 5px;
+}
+.uc-user-activity div.uc-u-1-3 div  i
+{
+    margin-bottom:5px;
+    color:#1e88e5
+}
+.uc-user-activity div.uc-u-1-3 div  i.fa
+{
+    color: #ff9100;
+    font-size: 1.8em !important;
+
+}
+
+.uc-user-activity div.uc-u-1-3 i
+{
+    display:block;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/*END User Activity*/
+
+
+/* User Meta */
+
+.uc-usermeta-holder
+{
+    position: relative;
+}
+
+.uc-usermeta-holder > div.uc-g > div
+{
+    margin-bottom: .8em;
+}
+.uc-usermeta-holder > div.uc-g > div:last-child
+{
+    margin-bottom: 0;
+}
+
+.uc-usermeta-holder .uc-usermeta-name
+{
+    font-size: 1.6em;
+    color: #000;
+    line-height: 1em;
+    font-weight: 500;
+}
+
+
+

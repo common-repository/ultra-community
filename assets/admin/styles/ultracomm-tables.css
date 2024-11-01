@@ -1,0 +1,64 @@
+.uc-table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+
+.uc-table caption
+{
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.uc-table td,
+.uc-table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: 0.5em 1em;
+}
+
+.uc-table td:first-child,
+.uc-table th:first-child {
+    border-left-width: 0;
+}
+
+.uc-table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.uc-table td {
+    background-color: transparent;
+}
+.uc-table-odd td {
+    background-color: #f2f2f2;
+}
+
+.uc-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+}
+
+.uc-table-bordered td {
+    border-bottom: 1px solid #cbcbcb;
+}
+.uc-table-bordered tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+.uc-table-horizontal td,
+.uc-table-horizontal th {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #cbcbcb;
+}
+.uc-table-horizontal tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
